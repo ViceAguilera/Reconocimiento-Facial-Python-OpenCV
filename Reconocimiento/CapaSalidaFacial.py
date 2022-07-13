@@ -3,7 +3,7 @@ import cv2
 import os
 import imutils
 
-dataRuta = 'C:/Users/vicen/Desktop/Reconocimiento Facial Py/ReconocimientoFacialPy/Data'
+dataRuta='C:/Users/vicen/Desktop/Reconocimiento Facial Py cv/ReconocimientoFacialPyCv/Data'
 listaData = os.listdir(dataRuta)
 entrenamientoEigenFaceRecognizer=cv2.face.EigenFaceRecognizer_create()
 entrenamientoEigenFaceRecognizer.read('EntrenamientoEigenfacerecognizer.xml')

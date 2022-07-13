@@ -3,7 +3,7 @@ import os
 import imutils
 
 modelo = 'FotosVice'
-ruta1 = 'C:/Users/vicen/Desktop/Reconocimiento Facial Py/ReconocimientoFacialPy'
+ruta1 = 'C:/Users/vicen/Desktop/Reconocimiento Facial Py cv/ReconocimientoFacialPyCv'
 rutacompleta = ruta1 + '/' + modelo
 if  not os.path.exists(rutacompleta):
     os.makedirs(rutacompleta)

@@ -5,7 +5,7 @@ import os
 import numpy as np
 from time import time     
 
-dataRuta='C:/Users/vicen/Desktop/Reconocimiento Facial Py/ReconocimientoFacialPy/Data'
+dataRuta='C:/Users/vicen/Desktop/Reconocimiento Facial Py cv/ReconocimientoFacialPyCv/Data'
 listaData=os.listdir(dataRuta)
 
 ids=[]
